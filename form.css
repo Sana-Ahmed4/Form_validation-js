@@ -1,0 +1,50 @@
+/* body{
+    background-color: green;
+    color:white;
+} */
+ .bg{
+    background-image: url('bgim.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
+    color: rgb(108, 25, 129);
+    padding:10px;
+
+
+    
+ }
+.iput{
+    padding:5px;
+    /* margin:10px; */
+    width:50%;
+    gap:5px;
+}
+label{
+    font-size: medium;
+    margin:10px;
+    
+}
+.error{
+    color:rgb(228, 17, 17);
+
+}
+.re{
+    position: relative;
+}
+.fa{
+    position: absolute;
+    top:10%;
+    left:93%;
+   
+}
+
+input[type=checkbox]{
+    accent-color:rgb(108, 25, 129);
+}
+
+
+input[type=checkbox]{
+    accent-color:rgb(108, 25, 129);
+}
+ 
+             

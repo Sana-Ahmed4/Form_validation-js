@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+     
+     <link rel="stylesheet" href="form.css">
+    <title>form</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-4 h3 fw-bold">Submission Form</div>
+            <div class="col-md-4"></div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-2"></div>
+            <div class="col-8 bg fw-bold ">
+                <form action="#" method="get" id="form1">
+                 
+                         <label for="fn" class="fw-bold">First Name</label>
+                         <input class="iput" type="text" name="fname" value="" id="fn"><span class="error"></span>
+                         
+                         <br>
+                         <label for="lname">Last Name</label>
+                         <input  class="iput"  type="text" name="lname" id="lname" value="" ><span class="error"></span>
+                         <br>
+                    
+                         <label for="em">Email</label>
+                         <input  class="iput" type="text" name="email" id="em" value="" ><span class="error"></span>
+                         <br>
+                         
+                         <!-- toggle -->
+                         <span class="re">
+                         <label for="ps">Password</label>
+                         <input  class="iput" type="text" name="password" id="ps" value="">
+                         <i class="fa fa-eye" aria-hidden="true" id="toggle1"></i>
+                         </span>
+                         <span class="error"></span>
+                         
+                         <br>
+                         <span class="re">
+                         <label for="ps">Confirm Password</label>
+                         <input   class="iput" type="text" name="password" id="cp" value="">
+                         <i class="fa fa-eye" aria-hidden="true" id="toggle2"></i>
+                         </span>
+                         <span class="error"></span>
+                         <br>
+                         <label for="mob">Phone</label>
+                         <input type="text" class="iput" id="mob" value=""><span class="error"></span><bR>
+                         <label for="dob">City</label>
+                         <input class="iput" type="text"><span class="error"></span>
+                         <br>
+                        <label>Please check all the dates when you're available</label><br>
+                        <div class="row">
+                            <div class="col-md-1"></div>
+                        <div class="col-md-11">
+                        <input type="checkbox" id="ch" name="checkbox"><label for="ch">February 6</label><br>
+                        <input type="checkbox" id="ch1" name="checkbox"><label  for="ch1">February 10</label><br>
+                        <input type="checkbox" id="ch2" name="checkbox"><label for="ch2">February 21</label><br>
+                        <input type="checkbox" id="ch3" name="checkbox"><label  for="ch3">March 6</label><br>
+                        <input type="checkbox" id="ch4" name="checkbox"><label  for="ch4">March 10</label><br>
+                        <input type="checkbox" id="ch5" name="checkbox"><label  for="ch5">March 21</label><br>
+                        <span class="error"></span>
+                       </div>
+                        
+                        </div>
+                        
+
+
+                        <label for="">Gender</label>
+                         <input type="radio" id="male" name="gen">
+                         <label for="male">male</label>
+                          <input  type="radio" id="female" name="gen">
+                         <label for="female">Female</label>
+                         <span class="error"></span>
+                         <br>
+                         <button class="btn bg rounded-5 border border-dark justify-content-middle px-4" type="submit" value="submit" id="btn">Submit</button>
+                    
+                </form>
+             
+            </div>
+            <div class="row">
+                <div class="col-md-4"></div>
+                <div class="col-md-4"></div>
+            </div>
+            <div class="col-lg-2"></div>
+        </div>
+    </div>
+    
+    <script src="form.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
